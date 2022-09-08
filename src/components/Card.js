@@ -1,6 +1,6 @@
 import React from "react";
-import cardImage from '../images/katie-zaferes.png'
-import star from '../images/star.png'
+import cardImage from '../images/katie-zaferes.png';
+import star from '../images/star.png';
 
 export default function Card() {
     return (

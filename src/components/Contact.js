@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import phone from '../images/phone-icon.png';
 import mail from '../images/mail-icon.png';
 
