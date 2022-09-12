@@ -8,42 +8,64 @@ import mrW from '../src/images/mr-whiskerson.png';
 import fluffykins from '../src/images/fluffykins.png';
 import felix from '../src/images/felix.png';
 import pumpkin from '../src/images/pumpkin.png';
+import Joke from './components/Joke';
 
-function App() {
+export default function App() {
     return (
-        <div>
-            <Navbar/>
-            <Hero/>
-            <Card/>
+        <div className="main">
+            {/*<Navbar />*/}
+            {/*<Hero />*/}
+            {/*<Card />*/}
 
-            <div className="contacts">
-                <Contact
-                    img={mrW}
-                    name="Mr. Whiskerson"
-                    phone="(212) 555-1234"
-                    email="mr.whiskaz@catnap.meow"
+            {/*<div className="contacts">*/}
+            {/*    <Contact*/}
+            {/*        img={mrW}*/}
+            {/*        name="Mr. Whiskerson"*/}
+            {/*        phone="(212) 555-1234"*/}
+            {/*        email="mr.whiskaz@catnap.meow"*/}
+            {/*    />*/}
+            {/*    <Contact*/}
+            {/*        img={fluffykins}*/}
+            {/*        name="Fluffykins"*/}
+            {/*        phone="(212) 555-2345"*/}
+            {/*        email="fluff@me.com"*/}
+            {/*    />*/}
+            {/*    <Contact*/}
+            {/*        img={felix}*/}
+            {/*        name="Felix"*/}
+            {/*        phone="(212) 555-4567"*/}
+            {/*        email="thecat@hotmail.com"*/}
+            {/*    />*/}
+            {/*    <Contact*/}
+            {/*        img={pumpkin}*/}
+            {/*        name="Pumpkin"*/}
+            {/*        phone="(0800) CAT KING"*/}
+            {/*        email="pumpkin@scrimba.com"*/}
+            {/*    />*/}
+            {/*</div>*/}
+
+            <div className="jokes">
+                <Joke
+                    setup="I got my daughter a fridge for her birthday."
+                    punchline="I can't wait to see her face light up when she opens it."
                 />
-                <Contact
-                    img={fluffykins}
-                    name="Fluffykins"
-                    phone="(212) 555-2345"
-                    email="fluff@me.com"
+                <Joke
+                    setup="How did the hacker escape the police?"
+                    punchline="He just ransomware!"
                 />
-                <Contact
-                    img={felix}
-                    name="Felix"
-                    phone="(212) 555-4567"
-                    email="thecat@hotmail.com"
+                <Joke
+                    setup="Why don't pirates travel on mountain roads?"
+                    punchline="Scurvy."
                 />
-                <Contact
-                    img={pumpkin}
-                    name="Pumpkin"
-                    phone="(0800) CAT KING"
-                    email="pumpkin@scrimba.com"
+                <Joke
+                    setup="Why do bees stay in the hive in the winter?"
+                    punchline="Swarm."
+                />
+                <Joke
+                    setup="What's the best thing about Switzerland?"
+                    punchline="I don't know, but the flag is a big plus!"
                 />
             </div>
         </div>
     )
 }
-
-export default App;
