@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/index.css';
 import App from './App';
+import App2 from './App2'
 import reportWebVitals from './reportWebVitals';
 
 function ReactApp() {
     return (
         <div>
             <App/>
+            {/*<App2/>*/}
         </div>
     )
 }
