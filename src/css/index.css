@@ -5,6 +5,7 @@
 body {
   margin: 0;
    font-family: 'Poppins', sans-serif;
+  background-color: goldenrod;
 }
 
 nav {
@@ -20,6 +21,10 @@ nav {
 
 .boldText {
   font-weight: bold;
+}
+
+nav {
+  background-color: antiquewhite;
 }
 
 .nav--logo {
