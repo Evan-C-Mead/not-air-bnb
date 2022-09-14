@@ -10,12 +10,12 @@ export default function App() {
             <Navbar/>
             <Hero/>
             <Card
-                img="katie-zaferes.png"
+                img=""
                 rating={5.0}
                 reviewCount={6}
                 country="USA"
                 title="Life Lessons with Katie Zaferes"
-                price={"From $" + 136}
+                price={136}
             />
         </div>
     )
