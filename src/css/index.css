@@ -16,7 +16,7 @@ nav {
 }
 
 .grayText {
-  color: #918e9b;
+  color: slategray;
 }
 
 .boldText {
@@ -69,7 +69,7 @@ section {
 }
 
 .card--star {
-  height: 14px;
+  height: 13px;
 }
 
 .contacts {
