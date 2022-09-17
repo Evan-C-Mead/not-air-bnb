@@ -6,6 +6,7 @@ import fluffykins from '../src/images/fluffykins.png';
 import felix from '../src/images/felix.png';
 import pumpkin from '../src/images/pumpkin.png';
 import Joke from './components/Joke';
+import Colors from "./components/Colors";
 
 export default function App() {
     return (
@@ -67,6 +68,10 @@ export default function App() {
                     punchline="I don't know, but the flag is a big plus!"
                     isPun={false}
                 />
+            </div>
+
+            <div className="colors">
+                <Colors/>
             </div>
         </div>
     )

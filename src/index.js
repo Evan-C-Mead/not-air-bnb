@@ -4,13 +4,13 @@ import './css/index.css';
 import App from './App';
 import App2 from './App2'
 import reportWebVitals from './reportWebVitals';
-import './indexArrays'
+import './indexArrays';
 
 function ReactApp() {
     return (
         <div>
-            <App/>
-            {/*<App2/>*/}
+            {/*<App/>*/}
+            <App2/>
         </div>
     )
 }
