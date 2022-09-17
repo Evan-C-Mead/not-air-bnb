@@ -19,6 +19,38 @@ nav {
   color: slategray;
 }
 
+.redText {
+  color: red;
+}
+
+.orangeText {
+  color: orange;
+}
+
+.yelloeText {
+  color: yellow;
+}
+
+.greenText {
+  color: green;
+}
+
+.blueText {
+  color: blue;
+}
+
+.indigoText {
+  color: indigo;
+}
+
+.violetText {
+  color: violet;
+}
+
+.colorsList {
+  background-color: slategray;
+}
+
 .boldText {
   font-weight: bold;
 }
@@ -86,8 +118,7 @@ section {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  padding: 13px;
-  padding-bottom: 20px;
+  padding: 13px 13px 20px;
   background-color: white;
 }
 
