@@ -19,31 +19,31 @@ nav {
   color: slategray;
 }
 
-.redText {
+.redHeader {
   color: red;
 }
 
-.orangeText {
+.orangeHeader {
   color: orange;
 }
 
-.yelloeText {
+.yellowHeader {
   color: yellow;
 }
 
-.greenText {
+.greenHeader {
   color: green;
 }
 
-.blueText {
+.blueHeader {
   color: blue;
 }
 
-.indigoText {
+.indigoHeader {
   color: indigo;
 }
 
-.violetText {
+.violetHeader {
   color: violet;
 }
 
