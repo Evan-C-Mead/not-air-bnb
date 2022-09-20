@@ -9,8 +9,8 @@ import './indexArrays';
 function ReactApp() {
     return (
         <div>
-            {/*<App/>*/}
-            <App2/>
+            <App/>
+            {/*<App2/>*/}
         </div>
     )
 }
