@@ -6,14 +6,15 @@ import Card from "./components/Card";
 import data from "./data/data";
 
 export default function App() {
-    const dataElements = data.map(card => {
-        return <Card title={card.title} location={card.location} rating={card.stats.rating} price={card.price} reviewCount={card.stats.reviewCount} coverImg={card.coverImg}/>
+    const cards = data.map(card => {
+        return <Card key={card.id} title={card.title} location={card.location} rating={card.stats.rating.toFixed(1)} price={card.price} reviewCount={card.stats.reviewCount} coverImg={card.coverImg}/>
     })
 
     return (
         <div className="main">
-            {/*<Navbar/>*/}
-            {/*<Hero/>*/}
+            <Navbar/>
+            <Hero/>
+
             {/*<Card*/}
             {/*    img=""*/}
             {/*    rating={5.0}*/}
@@ -23,9 +24,9 @@ export default function App() {
             {/*    price={136}*/}
             {/*/>*/}
 
-            <div className="main">
-                {dataElements}
-            </div>
+            <section className="cards-list">
+                {cards}
+            </section>
         </div>
     )
 }
