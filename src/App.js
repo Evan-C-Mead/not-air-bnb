@@ -17,7 +17,6 @@ export default function App() {
         <div className="main">
             <Navbar/>
             <Hero/>
-
             <section className="cards-list">
                 {cards}
             </section>

@@ -1,16 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './css/index.css';
+// import './css/index.css';
+import './css/travel.css';
 import App from './App';
 import App2 from './App2'
 import reportWebVitals from './reportWebVitals';
+import TravelApp from "./TravelApp";
 // import './data/indexArrays';
 
 function ReactApp() {
     return (
         <div>
-            <App/>
+            {/*<App/>*/}
             {/*<App2/>*/}
+            <TravelApp/>
         </div>
     )
 }

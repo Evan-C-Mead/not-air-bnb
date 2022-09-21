@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-   font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: goldenrod;
 }
 
@@ -59,8 +59,47 @@ nav {
   background-color: antiquewhite;
 }
 
+.travelNav {
+  background-color: #F55A5A;
+  justify-content: center;
+}
+
+.travelHeader {
+  display: flex;
+  align-items: center;
+  position: center;
+}
+
+.travelNav-header--color {
+  color: white;
+}
+
 .nav--logo {
   max-width: 100px;
+}
+
+.travelNav--logo {
+  max-width: 50px;
+  padding: 6px;
+}
+
+.travelCard {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.travelCard--image {
+  height: 200px;
+  width: 400px;
+}
+
+.travelCard--hr {
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
 }
 
 section {
