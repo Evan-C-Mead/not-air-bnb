@@ -5,7 +5,7 @@ export default function Joke(props) {
         <div>
             <h3 style={{display: props.setup ? "block" : "none"}}>{props.setup}</h3>
             <p>{props.punchline}</p>
-            <p>Is this a pun? - {props.isPun.toString()}</p>
+            <p>Is this a pun? - {props.isPun}</p>
             <hr/>
         </div>
     )
