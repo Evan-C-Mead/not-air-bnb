@@ -7,7 +7,7 @@ import felix from '../src/images/felix.png';
 import pumpkin from '../src/images/pumpkin.png';
 import Joke from './components/Joke';
 import Colors from "./components/Colors";
-import jokesData from "./jokesData";
+import jokesData from "./data/jokesData";
 
 export default function App() {
     const jokesElements = jokesData.map(joke => {
