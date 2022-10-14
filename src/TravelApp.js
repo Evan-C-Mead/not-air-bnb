@@ -28,7 +28,7 @@ export default function TravelApp() {
         <div>
             <TravelNavbar/>
             <section>
-                {cards}
+                {/*{cards}*/}
             </section>
             <section>
                 {jokeElements}
